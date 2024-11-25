@@ -1,0 +1,24 @@
+.conImg{
+    width: 15%;
+}
+
+.imgUser{
+    width: 40%;
+    border-radius: 10%;
+}
+
+
+.btnCursor{
+    cursor: pointer;
+    color: black;
+}
+
+.bgTable{
+
+    background-color: rgb(226,229,235);
+}
+
+.imgUserReplace{
+    width: 35% !important;
+
+}

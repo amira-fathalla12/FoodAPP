@@ -1,0 +1,10 @@
+.test{
+    width: 20rem;
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+    .test{
+        width: 5rem !important;
+    }
+
+}

@@ -1,0 +1,90 @@
+.auth-container {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-position: center center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-overlay {
+    background: linear-gradient(to left,
+            rgba(0, 0, 0, 0.4),
+            rgba(47, 140, 51, 0.7));
+}
+
+.sidebarContainer {
+    background-color: #1F263E;
+    border-top-right-radius: 4rem;
+    transition: all 0.3s ease-in-out;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.sidebarContainer.collapsed {
+    width: 120px;
+}
+
+.sidebarContainer .ps-sidebar-container {
+    background-color: inherit;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+    border-top-right-radius: 4rem;
+}
+
+.sidebarContainer .ps-menu-button {
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.sidebarContainer.collapsed .ps-menu-button {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.sidebarContainer .firstMenuItem img {
+    max-width: 90px;
+    transition: max-width 0.3s ease-in-out;
+}
+
+.sidebarContainer .firstMenuItem {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebarContainer .ps-menu-button:hover {
+    background-color: rgba(0, 176, 77, 0.3); 
+    color: red; 
+    border-radius: 8px; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.sidebarContainer .ps-menu-button.active {
+    background-color: rgba(0, 176, 77, 0.5); 
+    color: white;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 900px) {
+    .sidebarContainer {
+        width: 80px;
+    }
+
+    .sidebarContainer .ps-menu-button {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+.bg-header {
+    background-image: url('../src/assets/Header-bg.svg');
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 146, 71, 1);
+}
+
