@@ -35,7 +35,7 @@ function App() {
         { path: "register", element: <Registration /> },
         { path: "forget-pass", element: <ForgetPass /> },
         { path: "reset-pass", element: <ResetPass /> },
-        { path: 'verifyuser', element: <VerifyUser/> },
+        {path: "verifyuser", element: <VerifyUser/>}
 
       ],
     },
