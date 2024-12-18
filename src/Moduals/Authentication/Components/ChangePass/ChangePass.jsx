@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
-import styles from "../verifyUser/VerifyUser.module.css";
-import imgLogo from "../../../../assets/logoLogin.svg";
-import { useForm } from "react-hook-form";
 import axios from "axios";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import imgLogo from "../../../../assets/logoLogin.svg";
+import styles from "../VerifyUser/VerifyUser.module.css";
 
 export default function ChangePass({ handleClose }) {
   const [loadingBtn, setLoadingBtn] = useState(false);
