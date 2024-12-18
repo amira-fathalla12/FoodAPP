@@ -17,10 +17,10 @@ import NotFound from "./Moduals/Shared/Components/NotFound/NotFound";
 import UsersList from "./Moduals/Users/Components/UsersList/UsersList";
 
 import ChangePass from "./Moduals/Authentication/Components/ChangePass/ChangePass";
+import VerifyUser from "./Moduals/Authentication/Components/verifyUser/verifyUser";
 import Favorite from "./Moduals/Recipes/Components/Favorite/Favorite";
 import Recipesform from "./Moduals/Recipes/Components/Recipesform/Recipesform";
 import ProtectedRoute from "./Moduals/Shared/Components/ProtectedRoute/ProtectedRoute";
-import VerifyUser from "./Moduals/Authentication/Components/verifyUser/verifyUser";
 
 function App() {
   // Routing
