@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import imgLogo from "../../../../assets/logoLogin.svg";
-import styles from "../VerifyUser/VerifyUser.module.css";
+import styles from "../verifyUser/VerifyUser.module.css";
 
 export default function ChangePass({ handleClose }) {
   const [loadingBtn, setLoadingBtn] = useState(false);
